@@ -39,6 +39,12 @@ namespace apotek_Ardiyana
             this.txtkasir = new System.Windows.Forms.TextBox();
             this.tanggal = new System.Windows.Forms.Label();
             this.dgvtransaksi = new System.Windows.Forms.DataGridView();
+            this.obat_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nama_obat = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.jumlah = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.harga = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.subtotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.image = new System.Windows.Forms.DataGridViewImageColumn();
             this.obat = new System.Windows.Forms.Label();
             this.textharga = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -49,12 +55,6 @@ namespace apotek_Ardiyana
             this.txtsubtotal = new System.Windows.Forms.TextBox();
             this.txp = new System.Windows.Forms.Label();
             this.date = new System.Windows.Forms.DateTimePicker();
-            this.obat_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nama_obat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.jumlah = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.harga = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.subtotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.image = new System.Windows.Forms.DataGridViewImageColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvtransaksi)).BeginInit();
             this.SuspendLayout();
             // 
@@ -110,7 +110,7 @@ namespace apotek_Ardiyana
             // 
             this.btnSimpan.BackColor = System.Drawing.Color.LightCyan;
             this.btnSimpan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSimpan.Location = new System.Drawing.Point(723, 194);
+            this.btnSimpan.Location = new System.Drawing.Point(729, 226);
             this.btnSimpan.Name = "btnSimpan";
             this.btnSimpan.Size = new System.Drawing.Size(71, 26);
             this.btnSimpan.TabIndex = 70;
@@ -161,6 +161,37 @@ namespace apotek_Ardiyana
             this.dgvtransaksi.Name = "dgvtransaksi";
             this.dgvtransaksi.Size = new System.Drawing.Size(800, 224);
             this.dgvtransaksi.TabIndex = 79;
+            // 
+            // obat_id
+            // 
+            this.obat_id.HeaderText = "obat_id";
+            this.obat_id.Name = "obat_id";
+            this.obat_id.Visible = false;
+            // 
+            // nama_obat
+            // 
+            this.nama_obat.HeaderText = "Nama Obat";
+            this.nama_obat.Name = "nama_obat";
+            // 
+            // jumlah
+            // 
+            this.jumlah.HeaderText = "Jumlah";
+            this.jumlah.Name = "jumlah";
+            // 
+            // harga
+            // 
+            this.harga.HeaderText = "Harga";
+            this.harga.Name = "harga";
+            // 
+            // subtotal
+            // 
+            this.subtotal.HeaderText = "Subtotal";
+            this.subtotal.Name = "subtotal";
+            // 
+            // image
+            // 
+            this.image.HeaderText = "";
+            this.image.Name = "image";
             // 
             // obat
             // 
@@ -247,37 +278,6 @@ namespace apotek_Ardiyana
             this.date.Name = "date";
             this.date.Size = new System.Drawing.Size(200, 20);
             this.date.TabIndex = 99;
-            // 
-            // obat_id
-            // 
-            this.obat_id.HeaderText = "obat_id";
-            this.obat_id.Name = "obat_id";
-            this.obat_id.Visible = false;
-            // 
-            // nama_obat
-            // 
-            this.nama_obat.HeaderText = "Nama Obat";
-            this.nama_obat.Name = "nama_obat";
-            // 
-            // jumlah
-            // 
-            this.jumlah.HeaderText = "Jumlah";
-            this.jumlah.Name = "jumlah";
-            // 
-            // harga
-            // 
-            this.harga.HeaderText = "Harga";
-            this.harga.Name = "harga";
-            // 
-            // subtotal
-            // 
-            this.subtotal.HeaderText = "Subtotal";
-            this.subtotal.Name = "subtotal";
-            // 
-            // image
-            // 
-            this.image.HeaderText = "";
-            this.image.Name = "image";
             // 
             // Ftransaksi
             // 
