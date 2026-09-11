@@ -110,7 +110,7 @@ namespace apotek_Ardiyana
             // 
             this.btnSimpan.BackColor = System.Drawing.Color.LightCyan;
             this.btnSimpan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSimpan.Location = new System.Drawing.Point(729, 226);
+            this.btnSimpan.Location = new System.Drawing.Point(729, 196);
             this.btnSimpan.Name = "btnSimpan";
             this.btnSimpan.Size = new System.Drawing.Size(71, 26);
             this.btnSimpan.TabIndex = 70;
